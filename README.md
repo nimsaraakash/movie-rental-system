@@ -1,2 +1,2 @@
 # movie-rental-system
-desc na
+Open using local host, Otherwise css not gonna load correctly
