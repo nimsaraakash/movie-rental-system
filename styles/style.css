@@ -71,6 +71,13 @@
   background-color: black;
 }
 
+.nav-bar-opened {
+  text-decoration: underline;
+  text-decoration-color: #8b0000;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+}
+
 .nav-area a:hover {
   color: #8b0000;
 }
