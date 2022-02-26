@@ -1,0 +1,537 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Oxanium:wght@500;700&family=Poppins:wght@500;600;700&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@400;500;600;700&family=Sacramento&display=swap");
+
+* {
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-family: poppins;
+}
+
+.wrapper {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: black;
+}
+
+.header-content {
+  width: 1400px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.logo {
+  height: 100%;
+  display: table;
+  float: left;
+  background-color: black;
+}
+
+.logo h1 {
+  color: #fff;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Oxanium;
+  font-size: 38px;
+  font-weight: 700;
+  background-color: black;
+}
+
+.nav-area {
+  float: right;
+  height: 100%;
+}
+
+.nav-area li {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0 20px;
+  background-color: black;
+}
+
+.nav-area a {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: black;
+}
+
+.nav-area a:hover {
+  color: #8b0000;
+}
+
+.hero {
+  width: 100%;
+  height: 90%;
+  left: 0px;
+  top: 74px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1),
+      rgba(48, 0, 0, 0)
+    ),
+    url("/assets/hero-background.png");
+  background-size: cover;
+}
+
+.hero-title {
+  position: absolute;
+  background-color: transparent;
+  text-align: center;
+  font-size: 48px;
+  width: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+.hero-description {
+  position: absolute;
+  background-color: transparent;
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  padding-top: 180px;
+}
+
+.hero-search {
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+  text-align: center;
+  padding-top: 250px;
+}
+
+.hero-search-form {
+  width: 30%;
+  border: 2px solid #8b0000;
+  box-sizing: border-box;
+  border-radius: 21px;
+  height: 50px;
+  padding-left: 40px;
+  background-color: transparent;
+}
+
+.search-icon {
+  background-color: transparent;
+  color: white;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  padding-top: 12px;
+  padding-left: 10px;
+  opacity: 0.5;
+}
+
+.hero-search-button {
+  position: relative;
+  width: 125px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #8b0000;
+  border: none;
+}
+
+.hero-search-button:hover {
+  background-color: #460000;
+}
+
+.popular-movies-container {
+  background-color: transparent;
+}
+
+.popular-movies {
+  background-color: transparent;
+}
+
+.pop-m-1 {
+  display: flex;
+  background-color: transparent;
+  height: 100%;
+  padding-top: 400px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.movie-cover {
+  width: 250px;
+  height: 300px;
+  border: 10px solid white;
+  object-fit: cover;
+  margin: 0 30px;
+}
+
+.movie-link {
+  background-color: transparent;
+}
+
+.section-title {
+  font-family: poppins;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.product-container {
+  padding-left: 0px;
+  grid-column: 2;
+  grid-template-columns: 100px 200px;
+  justify-content: center;
+}
+
+.item-details {
+  display: grid;
+  grid-template-columns: 200px 50px;
+  padding-top: 10px;
+}
+
+.item-name {
+  padding-left: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.itm-price {
+  text-align: end;
+  padding-left: 50px;
+  color: rgba(255, 245, 0, 1);
+  font-weight: 700;
+}
+
+.buy-now-btn {
+  text-transform: uppercase;
+  background-color: #8b0000;
+  font-size: 18px;
+  font-weight: 700;
+  width: 270px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.movie-section {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.footer-section {
+  background-color: #000000;
+  width: 100%;
+  height: 160px;
+  position: absolute;
+}
+
+.footer-logo {
+  position: absolute;
+  background-color: transparent;
+  font-family: Oxanium;
+  font-size: 38px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.credits {
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.breadcrumb {
+  width: 100%;
+  height: 525px;
+  background-color: #000000;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1),
+      rgba(48, 0, 0, 0)
+    ),
+    url("/assets/breadcrumb.jpeg");
+  background-size: cover;
+}
+
+.breadcrumb-title {
+  position: absolute;
+  background-color: transparent;
+  font-family: poppins;
+  font-size: 96px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.kids-movies-section {
+  padding-top: 100px;
+}
+
+.title {
+  font-size: 36px;
+  font-family: poppins;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 50px;
+  text-align: center;
+}
+
+.paragraph {
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 30px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-image {
+  width: 446px;
+  height: 323px;
+  object-fit: cover;
+  padding: 20px;
+}
+
+.member-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  background-color: #fff;
+  margin: 30px;
+}
+
+.member-details {
+  display: grid;
+  grid-template-columns: 250px;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.member-name {
+  padding-left: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.member-container {
+  padding-bottom: 30px;
+}
+
+.index {
+  padding-left: 25px;
+}
+
+.our-team {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-wrapper {
+  display: flex;
+  padding-left: 200px;
+  padding-bottom: 100px;
+}
+
+.form-input {
+  border: 3px solid #8b0000;
+  border-radius: 10px;
+  width: 500px;
+  height: 50px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.message-box {
+  width: 500px;
+  border: 3px solid #8b0000;
+  border-radius: 10px;
+  height: 300px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.contact-us-btn {
+  font-size: 18px;
+  position: absolute;
+  width: 523px;
+  height: 50px;
+  background-color: #8b0000;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+
+.map {
+  padding-left: 50px;
+}
+
+.login-submit {
+  font-size: 18px;
+  width: 523px;
+  height: 50px;
+  background-color: #8b0000;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+
+.login {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+.form-label-email {
+  padding-right: 270px;
+  padding-bottom: 20px;
+}
+
+.form-label-password {
+  padding-right: 430px;
+}
+
+.form-fields {
+  display: block;
+  content: "";
+  margin-top: 10px;
+}
+
+.reset-password {
+  padding-right: 310px;
+  color: rgba(255, 255, 255, 0.56);
+}
+
+.space {
+  width: 100%;
+  height: 130px;
+}
+
+.register {
+  padding-left: 544px;
+}
+
+.message-box-reg {
+  width: 500px;
+  border: 3px solid #8b0000;
+  border-radius: 10px;
+  height: 100px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.available {
+  font-family: poppins;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.product-details-wrapper {
+  display: flex;
+  padding-left: 200px;
+  padding-top: 100px;
+}
+
+.add-to-cart {
+  width: 190px;
+  height: 50px;
+  background-color: #d2ca00;
+  font-size: 18px;
+  font-weight: bold;
+  color: #8b0000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.buy-button {
+  width: 190px;
+  height: 50px;
+  background-color: #8b0000;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.product-title {
+  padding-bottom: 10px;
+}
+
+.available {
+  padding-top: 10px;
+}
+
+.price {
+  font-size: 36px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  color: #d2ca00;
+}
+
+.product-images {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-image {
+  width: 650px;
+  height: 270px;
+  padding: 20px;
+}
+
+.trailer {
+  text-align: center;
+}
+
+.item-descreption {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*Animations*/
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
