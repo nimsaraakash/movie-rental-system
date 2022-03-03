@@ -4,10 +4,154 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Complete Order - Cineflix Movie renting platform</title>
+    <title>Checkout - Complete your order</title>
     <link rel="stylesheet" href="/styles/style.css" />
   </head>
   <body>
+    <!-- Staring header section -->
+    <div class="wrapper">
+      <div class="header">
+        <div class="header-content">
+          <div class="logo">
+            <h1>CINEFLIX</h1>
+          </div>
+          <ul class="nav-area">
+            <li><a class="nav-bar-opened" href="/index.html">Home</a></li>
+            <li><a href="/store.html">Store</a></li>
+            <li><a href="/about.html">About us</a></li>
+            <li><a href="/contact.html">Contact us</a></li>
+            <li><a href="/login.html">Login</a></li>
+            <li><a href="/register.html">Register</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End of header Section -->
     <h1 class="title">Checkout</h1>
+    <div class="form-wrapper">
+      <form action="" class="checkout">
+        <span class="subtitle" for="radio-button">Delivery Options</span><br />
+        <input type="radio" name="delivery-option" />
+        <label for="">Home Delivery</label>
+        <input type="radio" name="delivery-option" />
+        <label for="">Pickup From store</label><br />
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">First Name</span><br />
+            <input
+              class="form-input-checkout-short"
+              type="text"
+              placeholder="Enter your First Name"
+            />
+          </div>
+          <div class="input-box">
+            <span class="details">Last Name</span><br />
+            <input
+              class="form-input-checkout-short"
+              type="text"
+              placeholder="Enter your Last Name"
+            />
+          </div>
+          <div class="input-box">
+            <span class="details">Address</span><br />
+            <input
+              class="form-input-checkout-long"
+              type="text"
+              placeholder="Enter your Address"
+            />
+          </div>
+          <div class="input-box">
+            <span class="details">State</span><br />
+            <input
+              class="form-input-checkout-short"
+              type="text"
+              placeholder="Enter your State"
+            />
+          </div>
+          <div class="input-box">
+            <span class="details">Country</span><br />
+            <input
+              class="form-input-checkout-short"
+              type="text"
+              placeholder="Enter your Country"
+            />
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span><br />
+            <input
+              class="form-input-checkout-short"
+              type="email"
+              placeholder="Enter your Email"
+            />
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span><br />
+            <input
+              class="form-input-checkout-short"
+              type="number"
+              placeholder="Enter your Phone Number"
+            />
+          </div>
+        </div>
+        <br />
+        <br />
+        <span class="subtitle">Complete Payment</span>
+        <br /><br />
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Name on Card</span><br />
+            <input
+              class="form-input-checkout-long"
+              type="text"
+              placeholder="Enter your Name on card"
+            />
+          </div>
+          <div class="input-box">
+            <span class="details">Card Number</span><br />
+            <input
+              class="form-input-checkout-long"
+              type="text"
+              placeholder="Enter your Last Name"
+            />
+          </div>
+          <div class="input-box">
+            <span class="details">Expiry Date</span><br />
+            <input
+              class="form-input-checkout-short"
+              type="text"
+              placeholder="Enter your card number"
+            />
+          </div>
+          <div class="input-box">
+            <span class="details">CVV/CVC</span><br />
+            <input
+              class="form-input-checkout-short"
+              type="text"
+              placeholder="Enter your CVV/CVC"
+            />
+          </div>
+        </div>
+        <br /><br />
+        <div class="order-review">
+          <span class="subtitle">Order Review</span>
+          <div class="order-items">
+            <img
+              class="movie-cover"
+              src="/assets/movies/m1.jpeg"
+              alt="the-perfect-storm"
+            />
+            <div class="total">
+              <span>The Perfect Storm</span>
+              <span>$12.99</span>
+              <div class="line"></div>
+              <div class="total-amount">
+                <span>Total</span>
+                <span>$12.99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
   </body>
 </html>

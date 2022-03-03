@@ -9,6 +9,7 @@
   text-decoration: none;
   list-style: none;
   font-family: poppins;
+  font-size: 18px;
 }
 
 .wrapper {
@@ -530,6 +531,75 @@
   padding-right: 200px;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.form-wrapper {
+  display: flex;
+  width: 45%;
+  padding-left: 500px;
+}
+
+.subtitle {
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.form-input-checkout-short {
+  border: 3px solid #8b0000;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.form-input-checkout-long {
+  border: 3px solid #8b0000;
+  border-radius: 10px;
+  width: 538px;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.user-details {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.order-review {
+  display: grid;
+}
+
+.order-items {
+  width: 600px;
+  height: 380px;
+  display: grid;
+  grid-template-rows: 2;
+  justify-content: center;
+}
+
+.line {
+  height: 2px;
+  width: 300px;
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+.total-amount {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.order-review .movie-cover {
+  width: 230px;
+  height: 345px;
 }
 
 /*Animations*/
