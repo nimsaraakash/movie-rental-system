@@ -594,7 +594,8 @@
 
 .total-amount {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 70% 25%;
+  justify-content: space-between;
 }
 
 .order-review .movie-cover {
@@ -602,6 +603,28 @@
   height: 345px;
 }
 
+.order-review .subtitle {
+  padding-bottom: 50px;
+}
+
+.item-price-name {
+  display: grid;
+  grid-template-columns: 70% 25%;
+  justify-content: space-between;
+}
+
+.checkout-submit {
+  font-size: 18px;
+  width: 523px;
+  height: 50px;
+  background-color: #8b0000;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  margin-top: 90px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
 /*Animations*/
 
 @keyframes fadeIn {
