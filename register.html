@@ -6,6 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Create Acccount - CineFlix Movie rental platform</title>
     <link rel="stylesheet" href="/styles/style.css">
+    <script language="javascript" type="text/javascript">
+      function validateform()
+      {
+      if(document.register.fname.value.length==0)
+        {
+          alert("Please Enter First Name");
+          return;	
+        }
+      if(document.register.lname.value.length==0)
+        {
+          alert("Please Enter Last Name");
+          return;		
+        }
+      if(document.register.email.value.length==0)
+        {
+          alert("Required");
+          return;		
+        }
+      if(document.register.address.value.length==0)
+        {
+          alert("Required");
+          return;		
+        }
+      if(document.register.pwd.value.length==0)
+        {
+          alert("Required");
+          return;		
+        }
+      if(document.register.cwd.value.length==0)
+        {
+          alert("Required");
+          return;		
+        }
+      if(!document.register.terms.checked)
+	      {
+          alert("Required");
+	        return;
+        }
+
+      
+      alert ("Data is OK");
+      }</script>
   </head>
   <body>
           <!-- Staring header section -->
@@ -31,34 +73,34 @@
         <h1 class="title">Create an Acoount</h1>
         <form action="" class="register">
           <span class="form-label">First Name</span>
-          <br class="form-fields" />
+          <br name="fname" class="form-fields" />
           <input type="text" class="form-input" />
           <br />
           <span class="form-label">Last Name</span>
-          <br class="form-fields" />
+          <br name="lname" class="form-fields" />
           <input type="text" class="form-input" />
           <br />
           <span class="form-label">Enter your Email</span>
-          <br class="form-fields" />
+          <br name="email" class="form-fields" />
           <input type="email" class="form-input" />
           <br />
-          <span class="form-label">Adress</span>
-          <br class="form-fields" />
+          <span class="form-label">Address</span>
+          <br name="address" class="form-fields" />
           <textarea class="message-box-reg" name="textarea" id="" cols="30" rows="10"></textarea>
           <br />
           <span class="form-label">Password</span>
-          <br class="form-fields" />
+          <br name="pwd" class="form-fields" />
           <input type="password" class="form-input" />
           <br />
           <span class="form-label">Confirm Password</span>
-          <br class="form-fields" />
+          <br name="cpwd" class="form-fields" />
           <input type="password" class="form-input" />
           <br />
           <br>
-          <input type="checkbox"><span class="form-label"> I agree to the terms and services</span>
+          <input type="checkbox" name="terms"><span class="form-label"> I agree to the terms and services</span>
           <br />
           <br>
-          <button class="login-submit" type="submit">Login</button>
+          <button class="login-submit" type="submit" onclick="validateform();">Login</button>
           <br class="form-fields" />
         </form>
         <div class="space"></div>
