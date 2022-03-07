@@ -93,7 +93,7 @@
       rgba(0, 0, 0, 1),
       rgba(48, 0, 0, 0)
     ),
-    url("/assets/hero-background.png");
+    url("./assets/hero-background.png");
   background-size: cover;
 }
 
