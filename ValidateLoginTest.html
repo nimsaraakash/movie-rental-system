@@ -5,21 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login - CineFlix Movie rental Platform</title>
-    <link rel="stylesheet" href="./styles/style.css" />
-    <script lanuage="javascript" type="text/javascript">
-      function validateform() {
-        if (document.form2.email.value.length == 0) {
-          window.alert("Please Enter your Email");
-          return;
-        }
+    <link rel="stylesheet" href="/styles/style.css" />
+    <script src="Jslogin.js"></script>
 
-        if (document.form2.password.value.length == 0) {
-          window.alert("Please enater the password");
-          return;
-        }
-        alert("Data is ok");
-      }
-    </script>
   </head>
   <body>
     <!-- Staring header section -->
@@ -30,12 +18,12 @@
             <h1>CINEFLIX</h1>
           </div>
           <ul class="nav-area">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./store.html">Store</a></li>
-            <li><a href="./about.html">About us</a></li>
-            <li><a href="./contact.html">Contact us</a></li>
-            <li><a href="./login.html">Login</a></li>
-            <li><a href="./register.html">Register</a></li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/store.html">Store</a></li>
+            <li><a href="/about.html">About us</a></li>
+            <li><a href="/contact.html">Contact us</a></li>
+            <li><a href="/login.html">Login</a></li>
+            <li><a href="/register.html">Register</a></li>
           </ul>
         </div>
       </div>
@@ -44,14 +32,14 @@
     <!-- Login from start-->
     <div class="login">
       <h1 class="title">login</h1>
-      <form action="" class="login">
+      <form  action="/" class="login">
         <span class="form-label-email">Login email or phone number</span>
         <br class="form-fields" />
-        <input type="text" class="form-input" />
+        <input id="email" type="text" name="email" class="form-input" />
         <br />
-        <span class="form-label-password">Password</span>
+        <span class="form-label-password" >Password</span>
         <br class="form-fields" />
-        <input type="password" class="form-input" />
+        <input type="password" name="password" class="form-input" />
         <br />
         <button class="login-submit" type="submit">Login</button>
         <br class="form-fields" />
